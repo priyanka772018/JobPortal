@@ -1,153 +1,9 @@
-/*
-.login-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.login-box {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  text-align: center;
-}
-
-.input-group {
-  position: relative;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-
-.input-group .icon {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: gray;
-}
-
-.input-group input {
-  width: calc(100% - 30px); 
-  padding: 10px 10px 10px 30px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  font-size: 14px;
-}
-
-.input-group input::placeholder {
-  color: #888;
-}
-
-.options {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.login-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.login-button:hover {
-  background-color: #0056b3;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 15px;
-}
-
-.links a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.links a:hover {
-  text-decoration: underline;
-}
-
-.divider {
-  margin: 20px 0;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.divider::before,
-.divider::after {
-  content: '';
-  flex: 1;
-  border-bottom: 1px solid #ddd;
-}
-
-.divider:not(:empty)::before {
-  margin-right: .25em;
-}
-
-.divider:not(:empty)::after {
-  margin-left: .25em;
-}
-
-.social-login {
-  display: flex;
-  flex-direction: column;
-}
-
-.social-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  font-size: 14px;
-  color: white;
-}
-
-.social-button .social-icon {
-  margin-right: 10px;
-}
-
-.facebook {
-  background-color: #3b5998;
-}
-
-.twitter {
-  background-color: #1da1f2;
-}
-
-.google {
-  background-color: #db4437;
-}
-
-.facebook:hover {
-  background-color: #2d4373;
-}
-
-.twitter:hover {
-  background-color: #0c85d0;
-}
-
-.google:hover {
-  background-color: #c23321;
-}
-  */
-
-  /* LoginForm.css */
 
 .login-container {
   display: flex;
@@ -169,10 +25,11 @@
 .input-group {
   position: relative;
   margin-bottom: 15px;
-  border: 1px solid gray;
+  border: 1px solid grey;
   border-radius: 5px;
   display: flex;
   align-items: center;
+  height: 45px;
 }
 
 .input-group .icon {
@@ -181,12 +38,13 @@
 }
 
 .input-field {
-  width: calc(100% -50 px); /* Adjusted width to accommodate the icon */
   padding: 10px;
   border: none;
-  border-radius: 5px;
   outline: none;
   font-size: 14px;
+  margin-left: 50px;
+  height: 45px;
+  margin-bottom: 5px;
 }
 
 .input-field::placeholder {
@@ -295,3 +153,23 @@
 .google:hover {
   background-color: #c23321;
 }
+
+.exam-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.exam-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.exam-button:hover {
+  background-color: #0056b3;
+}
+
