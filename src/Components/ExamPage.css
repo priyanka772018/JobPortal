@@ -1,0 +1,44 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+  
+  .question-options-container {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .question-container,
+  .options-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .question-container {
+    margin-right: 10px;
+  }
+  
+  .options-container {
+    margin-left: 10px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  last {
+    padding: 30px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  

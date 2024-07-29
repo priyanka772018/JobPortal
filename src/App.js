@@ -7,6 +7,7 @@ import Vacancies from './Components/Vacancies';
 import LoginForm from './Components/LoginForm';
 import Footer from './Components/Footer';
 import RegistrationForm from './Components/RegistrationForm';
+import ExamPage from './Components/ExamPage';
 
 const App = () => (
   <Router>
@@ -18,9 +19,11 @@ const App = () => (
           <Vacancies />
           <LoginForm />
           <Footer />
+
         </div>
       } />
       <Route path="/register" element={<RegistrationForm />} />
+      <Route path="/exam" element={<ExamPage/>} />
     </Routes>
   </Router>
 );

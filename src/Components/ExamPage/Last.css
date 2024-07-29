@@ -1,0 +1,46 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dddddd;
+  }
+  
+  .footer-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  
+  .footer-button .svg-inline--fa {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .mark-review {
+    background-color: #6c757d;
+  }
+  
+  .clear-response {
+    background-color: #dc3545;
+  }
+  
+  .bookmark {
+    background-color: #007bff;
+  }
+  
+  .report {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .save-next {
+    background-color: #28a745;
+  }
+  

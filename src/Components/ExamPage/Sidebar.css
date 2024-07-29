@@ -1,0 +1,94 @@
+.sidebar {
+    background-color: #ffffff;
+    border-left: 1px solid #cccccc;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .view-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .view-toggle button {
+    background-color: #f8f9fa;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-toggle button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .view-toggle button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .chapter-indicator {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item {
+    width: 40px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border: 1px solid #cccccc;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-item.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .grid-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .list-view ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-view li {
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    margin-bottom: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-view li.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .list-view li:hover {
+    background-color: #e0e0e0;
+  }
+  
